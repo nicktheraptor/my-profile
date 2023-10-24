@@ -1,0 +1,158 @@
+
+img {
+    border: none;
+    border-radius: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc; 
+    color: #333; 
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+div {
+    background-color: #fff;
+    width: 50%; 
+    margin: 20px auto 20px auto; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 50%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Place it behind other content */
+}
+
+#background-video2 {
+    position: fixed;
+    left: 0; /* Position this video on the left side */
+    bottom: 0;
+    min-width: 50%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Place it behind other content */
+}
+
+/* Center the first class content */
+.first {
+    text-align: center;
+}
+
+/* List items styles */
+.list-inline li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+/* Icon styles */
+.icon-large1 {
+    font-size: 3em; 
+    color: darkorange; 
+    transition: transform 0.3s;
+}
+
+.icon-large2 {
+    font-size: 3em; 
+    color: green; 
+    transition: transform 0.3s;
+}
+
+/* Hover effect on icons */
+.icon-large1:hover {
+    transform: scale(1.2);
+    color: #666; 
+}
+
+.icon-large2:hover {
+    transform: scale(1.2);
+    color: #666; 
+}
+
+.icon-large3 {
+    font-size: 3em; 
+    color: blue; 
+    transition: transform 0.3s;
+}
+
+.icon-large3:hover {
+    transform: scale(1.2);
+    color: #666; 
+}
+
+
+
+/* Feedback section styles */
+.feedback-section {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); 
+}
+
+.feedback-section h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feedback-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+.feedback-section form {
+    margin-top: 20px;
+}
+
+.feedback-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.feedback-section button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.feedback-section button:hover {
+    background-color: #555;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 960px) {
+    .container {
+        width: 80%; 
+    }
+}
+@media (max-width: 720px) {
+    .container {
+        width: 90%; 
+    }
+}
+@media (max-width: 540px) {
+    .container {
+        width: 95%; 
+    }
+}
